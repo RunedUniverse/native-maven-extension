@@ -6,7 +6,7 @@
 	<version>0.0.0</version>
 	<packaging>pom</packaging>
 
-	<name>Runes4Maven Parent</name>
+	<name>Native Extension Parent</name>
 	<url>https://github.com/RunedUniverse/native-maven-extension</url>
 	<inceptionYear>2023</inceptionYear>
 
