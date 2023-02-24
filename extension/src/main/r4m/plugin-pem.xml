@@ -14,22 +14,6 @@
 				<packaging-procedure>lib</packaging-procedure>
 			</triggers>
 			<lifecycles>
-				<lifecycle id="clean">
-					<phases>
-						<phase id="clean">
-							<goals>
-								<goal id="clean">
-									<groupId>org.apache.maven.plugins</groupId>
-									<artifactId>maven-clean-plugin</artifactId>
-									<modes>
-										<default />
-										<dev />
-									</modes>
-								</goal>
-							</goals>
-						</phase>
-					</phases>
-				</lifecycle>
 				<lifecycle id="default">
 					<phases>
 						<phase id="compile">

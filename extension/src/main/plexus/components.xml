@@ -21,6 +21,14 @@
 			<configuration>
 				<lifecycles>
 					<lifecycle>
+						<id>clean</id>
+						<phases>
+							<clean>
+								org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean
+							</clean>
+						</phases>
+					</lifecycle>
+					<lifecycle>
 						<id>default</id>
 						<phases>
 							<validate></validate>
@@ -60,6 +68,14 @@
 			</implementation>
 			<configuration>
 				<lifecycles>
+					<lifecycle>
+						<id>clean</id>
+						<phases>
+							<clean>
+								org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean
+							</clean>
+						</phases>
+					</lifecycle>
 					<lifecycle>
 						<id>default</id>
 						<phases>
